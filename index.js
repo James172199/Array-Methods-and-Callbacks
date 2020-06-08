@@ -17,6 +17,18 @@ console.log(fifaData[828]["Home Team Goals"]);
 console.log(fifaData[828]["Away Team Goals"]);
 console.log(fifaData[828]["Win conditions"]);
 
+/*function getHomeName(data) {
+  var home = "";
+  for (var obj of data) {
+      if(obj.Year == 2014 && obj.Stage == "Final")
+      {
+          home = obj["Home Team Name"];  
+      }
+  }
+  return home;
+}
+console.log(getHomeName(fifaData));*/
+
 /* Task 2: Create a function called  getFinals that takes `data` as an argument and returns an array of objects with only finals data */
 
 function getFinals(/* code here */) {
